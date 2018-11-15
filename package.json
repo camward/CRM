@@ -1,0 +1,17 @@
+{
+  "name": "CRM",
+  "version": "1.0.0",
+  "description": "crm app with angular and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "angular"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
