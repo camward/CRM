@@ -1,4 +1,5 @@
-module.exports = {
-  mongoURI: 'mongodb://camward:camward123@ds117960.mlab.com:17960/fullstack',
-  jwt: 'dev-jwt'
+if (process.env.NODE_ENV === 'production') {
+  module.exports = require('./keys.prod')
+} else {
+  module.exports = require('./keys.dev')
 }
